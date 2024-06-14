@@ -89,12 +89,15 @@ section{
 }
 
 .options{
+    margin: auto;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
     display: flex;
     padding: 2rem;
-    width: 80vw;
+    width: 95vw;
     background: none;
+    gap: 10px;
 }
 
 .Living-room:hover,.Kitchen:hover,.Bathroom:hover,.Bedroom:hover,.Dining-room:hover,.Laundry:hover{
@@ -110,8 +113,8 @@ section{
 
 .back,.front{
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     backface-visibility: hidden;
     border-radius: 15px;
 }
@@ -203,7 +206,7 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
 }
 
 .show-item label{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .show-item p{
