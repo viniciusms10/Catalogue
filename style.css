@@ -95,7 +95,7 @@ section{
     align-items: center;
     display: flex;
     padding: 2rem;
-    width: 95vw;
+    width: 90vw;
     background: none;
     gap: 10px;
 }
@@ -114,7 +114,7 @@ section{
 .back,.front{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     backface-visibility: hidden;
     border-radius: 15px;
 }
