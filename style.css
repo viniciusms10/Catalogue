@@ -223,6 +223,7 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
 }
 
 .show-item img{
+    margin: auto;
     text-align: center;
     display: grid;
     width: 20vw;
