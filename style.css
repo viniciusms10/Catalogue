@@ -186,6 +186,7 @@ section{
     background: none;
     transition: 1.5s;
     text-align: center;
+    margin: auto;
 }
 
 .show-item:hover{
