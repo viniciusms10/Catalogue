@@ -113,8 +113,8 @@ section{
 
 .back,.front{
     text-align: center;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     backface-visibility: hidden;
     border-radius: 15px;
 }
@@ -206,12 +206,12 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
 }
 
 .show-item label{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .show-item p{
     visibility: hidden;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin: auto;
     width: fit-content;
