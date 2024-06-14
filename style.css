@@ -237,29 +237,11 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
     border-radius: 20px;
 }
 
-.player{    
-    position: relative;
-    display: inline-block;
-}
-
-.player h1{
-  position: absolute;
-  color: black;
-  left: 71.2%;
-  margin: 20px;
-  width: 110px;
-  height: 12vh;
-  border-radius: 50%;
-  background-color: rgb(204, 216, 212);
-}
-
-.player video{
-    width: 70vw;
-}
 
 footer{
     background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(105,218,171,1) 0%, rgba(98,177,142,1) 21%, rgba(97,171,138,1) 45%, rgba(85,104,91,1) 100%);
     border-radius: 10px 10px 0px 0px;
+    z-index: 0;
 }
 
 .footer-container{
