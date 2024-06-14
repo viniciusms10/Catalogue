@@ -31,8 +31,20 @@ header{
     border-radius: 0px 0px 50px 25px;
     background-image: url();
     background-size: cover;
+    position: sticky;
+   
 }
 
+section{
+    
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
 .left,.right,label{
     background: none;
 }
@@ -63,12 +75,12 @@ header{
 
 .title label{
     padding: 15px;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .title label:hover{
     color: chartreuse;
-    transition: 0.5s;
+    font-size: large;
 }
 
 .title img{
@@ -179,11 +191,34 @@ section{
     padding-bottom: 60px;
     background: rgb(2,0,36);
 background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, rgb(127, 144, 136) 21%, rgb(109, 133, 123) 45%, rgb(130, 151, 136) 100%);
-    transition: 1s;
+   
+
+        p{
+        color: black;
+        visibility: visible;
+        transition: 0.5s;
+    }
 }
 
 .show-item label{
     font-size: 25px;
+}
+
+.show-item p{
+    visibility: hidden;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    cursor: pointer;
+}
+
+.show-item p:hover{
+    color: white;
+    transition: 0.5s;
 }
 
 .show-item img{
@@ -215,16 +250,27 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
     width: 70vw;
 }
 
-.footer{
-    text-align: center;
+footer{
     background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(105,218,171,1) 0%, rgba(98,177,142,1) 21%, rgba(97,171,138,1) 45%, rgba(85,104,91,1) 100%);
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px 10px 10px 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(105,218,171,1) 0%, rgba(98,177,142,1) 21%, rgba(97,171,138,1) 45%, rgba(85,104,91,1) 100%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-left{
+    text-align: center;
+    background: none;
+    padding: 15px;
 }
 
 footer figure, footer h2{
-    background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(105,218,171,1) 0%, rgba(98,177,142,1) 21%, rgba(97,171,138,1) 45%, rgba(85,104,91,1) 100%);
+    background-color: transparent;
+    padding: 10px;
 }
 
 footer figure img{
@@ -237,4 +283,34 @@ footer figure img{
 footer figure img:hover{
     width: 3vw;
     transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer-logo{
+    background: none;
+    width: 10vw;
+}
+
+.footer-right{
+    width: fit-content;
+    text-align: center;
+    background: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* duas colunas com largura igual */
+    grid-gap: 10px; /* espaço entre as colunas */
+}
+
+.footer-right figure{
+    text-align: center;
+}
+
+figcaption{
+    background: none;
+}
+
+.copyright{
+    background: transparent;
+    text-align: center;
+    padding: 5px;
 }
