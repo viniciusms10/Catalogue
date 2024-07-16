@@ -35,9 +35,6 @@ header{
    
 }
 
-section{
-    
-}
 
 .left{
     display: flex;
@@ -47,6 +44,10 @@ section{
 }
 .left,.right,label{
     background: none;
+}
+
+.slide-show img{
+    width: 70%;
 }
 
 .search{
@@ -190,10 +191,12 @@ section{
     transition: 1.5s;
     text-align: center;
     margin: auto;
+    width: 20vw;
+    word-wrap: break-word;
 }
 
 .show-item:hover{
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     background: rgb(2,0,36);
 background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, rgb(127, 144, 136) 21%, rgb(109, 133, 123) 45%, rgb(130, 151, 136) 100%);
    
@@ -232,8 +235,6 @@ background: linear-gradient(42deg, rgb(79, 74, 173) 0%, rgb(137, 152, 146) 0%, r
     display: grid;
     width: 20vw;
     height: 25vh;
-    border-style: solid;
-    border-width: 5px;
     border-radius: 20px;
 }
 
